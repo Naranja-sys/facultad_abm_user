@@ -1,0 +1,29 @@
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin: 10px 0;
+      padding: 8px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+a {
+  cursor: pointer;
+  /* Asegura que el enlace sea interactivo */
+  text-decoration: none;
+  color: blue;
+}

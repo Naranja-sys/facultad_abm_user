@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>INICIAR SESIÓN</h2>
+  <form (submit)="login()">
+    <label>EMAIL:</label>
+    <input type="email" [(ngModel)]="email" autofocus="autofocus" required>
+    <label>CONTRASEÑA:</label>
+    <input type="password" [(ngModel)]="password" required>
+    <button type="submit">INGRESAR</button>
+  </form>
+  <p>¿No tienes cuenta?</p>
+  <a routerLink="/register">Regístrate</a>
+</div>
